@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Your app's base theme -->
+    <style name="Base.Theme.NCPGeoAttendance" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Set transparent system bars for edge-to-edge layout -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item> <!-- Or false depending on your UI -->
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="Theme.NCPGeoAttendance" parent="Base.Theme.NCPGeoAttendance" />
+</resources>
